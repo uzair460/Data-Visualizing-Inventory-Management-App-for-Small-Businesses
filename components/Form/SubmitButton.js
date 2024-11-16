@@ -26,4 +26,4 @@ const style =StyleSheet.create({
     fontWeight:"400",
   }
 })
-export default SubmitButton∏
+export default SubmitButton

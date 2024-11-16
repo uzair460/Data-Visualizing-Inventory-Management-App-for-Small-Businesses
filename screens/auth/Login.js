@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import InputBox from "../../components/Form/InputBox";
 import SubmitButton from "../../components/Form/SubmitButton";
 import { NavigationContainer } from "@react-navigation/native";
-import AsyncStorage from "@react-native-async-storage/async-storage";
+//import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios from "axios";
 
 
@@ -39,12 +39,7 @@ const Login = ({ navigation }) => {
     }
   };
 
-  // temp funscion to test
-  const getLocalStorageData = async () => {
-    let data = await AsyncStorage.getItem("@auth");
-    console.log("local storage data", data);
-  };
-  getLocalStorageData();
+ 
 
   return (
     <View style={style.container}>
